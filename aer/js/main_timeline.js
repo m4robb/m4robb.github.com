@@ -54,7 +54,7 @@ function vidTimeline() {
 	var html;
 	
 	function setHTML(vidTitle) {		
-		html += '<source src="video/'+vidTitle+'.webm"  type="video/webm" />';		
+		html += '<source src="http://client.heliozilla.com/AER/video/'+vidTitle+'.webm"  type="video/webm" />';		
 	}
 
 
@@ -79,7 +79,7 @@ function vidTimeline() {
  // $('#sky_map').fadeIn(1000)
 //move_map()
 			video.volume=0
-	    video.src="video/walk_to_building.webm"	
+	    video.src="http://client.heliozilla.com/AER/video/walk_to_building.webm"	
 			video.load();
 			$('#video').fadeIn(1000, function(){
 				video.play();
@@ -96,7 +96,7 @@ function vidTimeline() {
 	start: 14,
 	end: 24,
 	onStart: function( options ) {
-			video.src="video/telescope_move_red.webm"
+			video.src="http://client.heliozilla.com/AER/video/telescope_move_red.webm"
 					
 			video.load();
 			$('#video').fadeIn(1500, function(){
@@ -114,7 +114,7 @@ function vidTimeline() {
 	start: 27,
 	end: 42,
 	onStart: function( options ) {
-			video.src="video/door_opening.webm"
+			video.src="http://client.heliozilla.com/AER/video/door_opening.webm"
 			video.load();
 			$('#video').fadeIn(1500, function(){
 				video.play();
@@ -131,7 +131,7 @@ function vidTimeline() {
 	start: 45,
 	end: 65,
 	onStart: function( options ) {
-			video.src="video/world_moves_edit.webm"	
+			video.src="http://client.heliozilla.com/AER/video/world_moves_edit.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -149,7 +149,7 @@ function vidTimeline() {
 	start: 67,
 	end: 76,
 	onStart: function( options ) {
-			video.src="video/sunrise_02.webm"	
+			video.src="http://client.heliozilla.com/AER/video/sunrise_02.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -167,7 +167,7 @@ function vidTimeline() {
 	start: 79,
 	end: 88,
 	onStart: function( options ) {
-			video.src="video/sunrise_01.webm"	
+			video.src="http://client.heliozilla.com/AER/video/sunrise_01.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -185,7 +185,7 @@ function vidTimeline() {
 	start: 90,
 	end: 110,
 	onStart: function( options ) {
-			video.src="video/sun_pan.webm"	
+			video.src="http://client.heliozilla.com/AER/video/sun_pan.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -203,7 +203,7 @@ function vidTimeline() {
 	start: 112,
 	end: 127,
 	onStart: function( options ) {
-			video.src="video/walk_through_canyon.webm"	
+			video.src="http://client.heliozilla.com/AER/video/walk_through_canyon.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -221,7 +221,7 @@ function vidTimeline() {
 	start: 130,
 	end: 138,
 	onStart: function( options ) {
-			video.src="video/pan_bridge.webm"	
+			video.src="http://client.heliozilla.com/AER/video/pan_bridge.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -239,7 +239,7 @@ function vidTimeline() {
 	start: 140,
 	end: 153,
 	onStart: function( options ) {
-			video.src="video/mirror_landscape.webm"	
+			video.src="http://client.heliozilla.com/AER/video/mirror_landscape.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -257,7 +257,7 @@ function vidTimeline() {
 	start: 156,
 	end: 169,
 	onStart: function( options ) {
-			video.src="video/telescope_point_up.webm"	
+			video.src="http://client.heliozilla.com/AER/video/telescope_point_up.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -276,7 +276,7 @@ function vidTimeline() {
 	start: 172,
 	end: 180,
 	onStart: function( options ) {
-			video.src="video/sun_and_smog.webm"	
+			video.src="http://client.heliozilla.com/AER/video/sun_and_smog.webm"	
 			$('#video').fadeIn(1500, function(){
 			video.play();
 			
@@ -295,7 +295,7 @@ function vidTimeline() {
 	start: 183,
 	end: 190,
 	onStart: function( options ) {
-			video.src="video/moon.webm"
+			video.src="http://client.heliozilla.com/AER/video/moon.webm"
 					
 			video.load();
 			$('#video').fadeIn(1000, function(){
@@ -313,7 +313,7 @@ function vidTimeline() {
 	start: 190,
 	end: 325,
 	onStart: function( options ) {
-			video.src="video/VLA.webm"
+			video.src="http://client.heliozilla.com/AER/video/VLA.webm"
 					
 			video.load();
 			$('#video').fadeIn(1000, function(){
